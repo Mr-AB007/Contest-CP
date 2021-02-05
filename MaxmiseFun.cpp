@@ -2,10 +2,10 @@
 
 using namespace std;
 
-int maxFun(long long n)
+long long maxFun(long long n)
 {
     vector<long long> arr;
-    long n1,m=0;
+    long long n1,m=0;
     for(long long i = 0; i < n; i++)
     {
         cin>>n1;
